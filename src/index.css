@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+/* index.css */
+@font-face {
+  font-family: montserrat;
+  src: url('/src/assets/fonts/Montserrat/static/Montserrat-Regular.ttf') ;
+
+}
+@font-face {
+  font-family: yatra;
+  src: url('/src/assets/fonts/Yatra_One/YatraOne-Regular.ttf') ;
+
+}
+@font-face {
+  font-family: devanagari;
+  src: url('/src/assets/fonts/Tiro_Devanagari_Marathi/TiroDevanagariMarathi-Regular.ttf') ;
+
+}
+
+@theme{
+  --font-montserrat:"Montserrat", sans-serif;
+}
+@theme{
+  --font-yatra:"Yatra One", system-ui;
+}
+@theme{
+  --font-devangari:"Tiro Devanagari Marathi", serif;
+}
+
