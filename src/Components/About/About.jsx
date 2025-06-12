@@ -4,9 +4,9 @@ import React from "react";
 export default function About() {
   return (
     <>
-      <section id="about" className=" bg-white font-montserrat  h-screen flex overflow-hidden max-md:bg-[url('/images/2.jpeg')] bg-no-repeat bg-cover">
+      <section id="about" className=" bg-white font-montserrat  h-screen flex items-center justify-center overflow-hidden max-md:bg-[url('/images/2.jpeg')] bg-no-repeat bg-cover">
  
-        <div className=" max-md:hidden  py-28 pl-24 pr-5 flex-1/3 grid grid-cols-4 grid-rows-8 gap-2 ">
+        <div className=" max-md:hidden max-h-[600px]  py-28 pl-24 pr-5 flex-1/3 grid grid-cols-4 grid-rows-8 gap-2 ">
           <div className="col-span-2 row-span-4  overflow-hidden transition duration-300 hover:scale-103 object-cover">
             <img
               alt="HeroUI Fruit Image with Zoom"
