@@ -103,7 +103,7 @@ export default function Form() {
   };
 
   return (
-    <form onSubmit={handleSubmit} className='border font-montserrat border-stone-300 w-96 max-md:w-[400px] max-sm:w-[340px] rounded-lg md:mx-10 mx-auto py-10 px-8 space-y-1.5 *:text-[12px] shadow-xl   bg-[#e3e3e3] backdrop-blur-3xl'>
+    <form onSubmit={handleSubmit} className='border text-[24px] font-montserrat border-stone-300 w-96 max-md:w-[400px] max-sm:w-[340px] rounded-lg md:mx-10 mx-auto py-10 px-8 space-y-1.5 *:text-[12px] shadow-xl   bg-[#e3e3e3] backdrop-blur-3xl'>
       <div className='flex flex-col w-[90%] space-y-1'>
         <label htmlFor="name" className='font-light'>Name</label>
         <input 

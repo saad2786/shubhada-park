@@ -27,7 +27,7 @@ function View() {
           />
         </Zoom>
       </div>
-      <h1 className="text-center text-xl font-bold mb-4 ">Plot Top View</h1>
+      <h1 className="text-center text-xl font-bold mb-4 ">Address Details</h1>
       <div className="w-[80%] mb-10  flex flex-col sm:flex-row  items-center justify-center">
         <div className="pr-2">
           <p className="text-lg font-normal">

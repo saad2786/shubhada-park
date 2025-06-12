@@ -6,17 +6,17 @@ import './Footer.css'
 function Footer() {
   return (
     <>
-    <div class="overflow-hidden font-devangari bg-amber-200 shadow-sm  h-8 flex items-center justify-center ">
+    <div class="overflow-hidden font-devangari bg-amber-200 shadow-sm  sm:h-8  flex items-center justify-center ">
     <div class="marquee-content flex justify-center gap-4 items-center animate-marquee">
         <div className="flex list-disc">
-            <div className="w-[700px] italic font-semibold">बुकिंग व अधिक माहितीसाठी संपर्क : ऑफिस: २००२ बी वॉर्ड, साई मंदिर जवळ, मंगलवार पेठ, कोल्हापूर.</div>
-            <div className="w-[700px] italic font-semibold">बुकिंग व अधिक माहितीसाठी संपर्क : ऑफिस: २००२ बी वॉर्ड, साई मंदिर जवळ, मंगलवार पेठ, कोल्हापूर.</div>
-            <div className="w-[700px] italic font-semibold">बुकिंग व अधिक माहितीसाठी संपर्क : ऑफिस: २००२ बी वॉर्ड, साई मंदिर जवळ, मंगलवार पेठ, कोल्हापूर.</div>
+            <div className="w-[700px] italic font-semibold">बुकिंग व अधिक माहितीसाठी संपर्क : ऑफिस: २००२ बी वॉर्ड, साई मंदिर जवळ, मंगलवार पेठ, कोल्हापूर</div>
+            <div className="w-[700px] italic font-semibold">बुकिंग व अधिक माहितीसाठी संपर्क : ऑफिस: २००२ बी वॉर्ड, साई मंदिर जवळ, मंगलवार पेठ, कोल्हापूर</div>
+            <div className="w-[700px] italic font-semibold">बुकिंग व अधिक माहितीसाठी संपर्क : ऑफिस: २००२ बी वॉर्ड, साई मंदिर जवळ, मंगलवार पेठ, कोल्हापूर</div>
         </div>
     </div>
 
     </div>
-    <footer className="h-[100px] max-md:h-[20vh] bg-gray-700 py-10 text-[10px] flex max-md:flex-col justify-between items-center px-5 text-slate-300">
+    <footer className="h-[150px] sm:h-[100px] max-md:h-[20vh] bg-gray-700 py-10 text-[10px] flex max-md:flex-col justify-between items-center px-5 text-slate-300">
       <div className=" space-y-4 order-2 sm:order-0 mb-4">
         <div className="space-x-2">
           <a href="#home" className="hover:text-blue-300">
@@ -43,7 +43,9 @@ function Footer() {
       </div>
       <div className="order-0 sm:order-1 mb-4">
         <a href="#home">
-          <p className="hover:text-blue-300">Brand Name</p>
+          <div className="hover:text-blue-300">
+            <img src="/images/brand-name.png" alt="brand name" width={100} />
+          </div>
         </a>
       </div>
       <div className="order-4">

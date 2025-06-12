@@ -16,9 +16,17 @@
   src: url('/src/assets/fonts/Tiro_Devanagari_Marathi/TiroDevanagariMarathi-Regular.ttf') ;
 
 }
+@font-face {
+  font-family: antiqua;
+  src: url('/src/assets/fonts/Inknut_Antiqua/InknutAntiqua-Regular.ttf') ;
+
+}
 
 @theme{
   --font-montserrat:"Montserrat", sans-serif;
+}
+@theme{
+  --font-antiqua:"Inknut Antiqua", serif; 
 }
 @theme{
   --font-yatra:"Yatra One", system-ui;
