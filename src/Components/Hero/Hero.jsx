@@ -2,7 +2,7 @@ import React from "react";
 import "./Hero.css";
 function Hero() {
   return (
-    <div className=" bg-[url('/images/3.jpeg')] bg-no-repeat bg-cover ">
+    <div className=" bg-[url('/images/3.jpeg')] bg-no-repeat bg-cover " id="home">
       <div className=" flex items-center justify-center gap-10 flex-col md:flex-row  bg-no-repeat h-screen bg-cover backdrop-brightness-60">
         <div className="container  text-white md:flex-1/2 order-2 flex md:items-end items-center px-8 md:pr-10 justify-center flex-col">
           <p className="mb-2 font-semibold text-2xl font-antiqua  ">
@@ -11,7 +11,7 @@ function Hero() {
           <p className="mb-2  font-semibold text-2xl font-antiqua">
             घर इथं साकारताय...
           </p>
-          <div className="mb-4 ">
+          <div className="mb-4 transform  transition duration-300 hover:scale-110 ">
             <img src="/images/Canva.png"  alt="logo" width={200} />
           </div>
           <a className="p-[3px] relative" href="#form">

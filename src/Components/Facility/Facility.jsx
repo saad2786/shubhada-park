@@ -21,7 +21,7 @@ export default function Facility() {
       id="facility"
       className="h-fit  flex flex-col gap-2 bg-[#FFF5E4] py-12 max-sm:space-y-5 "
     >
-      <div className="flex  flex-col font-devangari items-center justify-center gap-8 max-md:px-1  ">
+      <div className="flex  flex-col font-devanagari items-center justify-center gap-8 max-md:px-1  ">
         <p className="text-3xl font-montserrat  max-md:px-2 uppercase text-center  font-bold">
           Facilities We Provide
         </p>
