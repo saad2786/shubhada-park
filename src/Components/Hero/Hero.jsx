@@ -16,7 +16,7 @@ function Hero() {
           <div class="absolute top-4 left-0 bg-[#f6c89f9b] ml-1 mt-1 px-6 py-3 w-[90%] h-[90%] z-0  rotate-6"></div>
         </div>
       </div>
-      <div className="absolute w-[350px] md:w-[500px] bottom-0 left-5 md:left-1/5">
+      <div className="absolute w-3/4 md:w-[500px] -bottom-0 right-2 md:left-1/5">
         <img src="/images/family.png" alt="family" />
       </div>
     </div>
