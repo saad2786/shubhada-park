@@ -72,7 +72,7 @@ export default function Facility() {
           </div>
           <div className="flex items-center flex-col border border-stone-200 transform  sm:h-64 sm:w-64  transition duration-300 hover:scale-110 w-[250px] py-4 min-h-[150px] px-2 bg-[#F8FAFC] justify-center rounded-xl shadow-lg max-md:w-[45%] text-center text-sm font-semibold max-md:px-2 ">
             <img src="/images/connection.png"  width={90}  />
-            <p className="mt-2">आमेनिटी स्पेस</p>
+            <p className="mt-2">ॲमिनिटीज् स्पेस</p>
           </div>
           <div className="flex items-center flex-col border border-stone-200 transform  sm:h-64 sm:w-64  transition duration-300 hover:scale-110 w-[250px] py-4 min-h-[150px] px-2 bg-[#F8FAFC] justify-center rounded-xl shadow-lg max-md:w-[45%] text-center text-sm font-semibold max-md:px-2    ">
             <img src="/images/shop.png"  width={90}  />
